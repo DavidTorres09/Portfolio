@@ -1,0 +1,66 @@
+:root {
+    --color-item-1: #030303;
+    --color-item-2: #FFFFFE;
+    --color-item-3: #0acece;
+    --color-item-4: #1bffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-item-1);
+    color: var(--color-item-4);
+    box-shadow: 0 0 30px 0 hsla(0, 0%, 45%, 0.8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 97.5%;
+}
+
+nav h1 {
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px rgba(4, 0, 255, 0.8);
+}
+
+nav h1:hover {
+    font-size: 26px;
+    text-shadow: 6px 6px 6px  rgba(3, 158, 185, 0.8);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul a {
+    color: var(--color-item-3);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px rgba(0, 146, 172, 0.8);
+}
+
+nav ul a:hover {
+    color: var(--color-item-4);
+    font-size: 20px;
+    text-shadow: 6px 6px 6px  rgba(3, 158, 185, 0.8);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.about-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
