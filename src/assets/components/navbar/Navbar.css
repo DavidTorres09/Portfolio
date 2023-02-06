@@ -16,7 +16,7 @@ nav {
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 97.5%;
+    width: 100%;
 }
 
 nav h1 {
@@ -67,7 +67,6 @@ nav ul a:hover {
 }
 
 .about-img:hover {
-
     transform: scale(1.5);
     cursor: pointer;
 }
