@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import Social from './Social';
 import Data from './Data';
+import ScrollDown from './ScrollDown';
 
 
 
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
           <div className="home__img"></div>
           <Data/>
         </div>
+        <ScrollDown/>
       </div>
     </section>
 
