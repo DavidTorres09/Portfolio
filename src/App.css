@@ -1,26 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-@media screen and(max-width:992px){
-  .container{
+@media screen and(max-width:992px) {
+  .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
 }
-@media screen and(max-width:768x){
-  
-}
-@media screen and(max-width:576px){
-  
-}
-@media screen and(max-width:350px){
-  
-}
+
+@media screen and(max-width:768x) {}
+
+@media screen and(max-width:576px) {}
+
+@media screen and(max-width:350px) {}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -97,7 +94,7 @@ img {
   gap: 1.5rem;
 }
 
-.button{
+.button {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
@@ -106,19 +103,45 @@ img {
   font-weight: var(--font-medium);
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--title-color-dark);
 }
 
-.button_icon{
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex{
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
 
+
+@media screen and (max-width:992px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:576px) {
+
+}
+
+@media screen and (max-width:350px) {
+  .container {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+}
+
+
+
+/*
 #root {
 
   margin: 0 auto;
@@ -163,3 +186,4 @@ img {
 .read-the-docs {
   color: #888;
 }
+*/
