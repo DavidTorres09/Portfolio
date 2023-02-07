@@ -2,17 +2,20 @@
 import './App.css'
 import React from 'react';
 import Navbar from './assets/components/navbar/Navbar';
-import AboutMe from './assets/components/presentation/presentation';
+import Home from './assets/components/presentation/Home';
 
 
 
 
 const App: React.FC = () => {
   return (
-    <div>
+    <>
       <Navbar/>
-      <AboutMe/>
-    </div>
+      <main className="main">
+        <Home/>
+      </main>
+      
+    </>
   );
 }
 
