@@ -163,7 +163,7 @@ button:focus::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite;
+
 }
 
 .button:hover::after,
@@ -172,19 +172,7 @@ button:focus::after {
   display: none;
 }
 
-@keyframes ring {
-  0% {
-    width: 40px;
-    height: 30px;
-    opacity: 1;
-  }
 
-  100% {
-    width: 400px;
-    height: 400px;
-    opacity: 0;
-  }
-}
 
 /*----------------------------------------*/
 
@@ -193,9 +181,22 @@ button:focus::after {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  .button{
+    padding: 1rem 1.75rem;
+  }
+
+  .button_icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+  .section{
+    padding: 2rem 0 4rem;
+  }
+}
 
 @media screen and (max-width:576px) {}
 
