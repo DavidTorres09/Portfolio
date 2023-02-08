@@ -3,18 +3,18 @@ import './App.css'
 import React from 'react';
 import Navbar from './assets/components/navbar/Navbar';
 import Home from './assets/components/presentation/Home';
-
+import About from './assets/components/about/about';
 
 
 
 const App: React.FC = () => {
   return (
     <>
-      <Navbar/>
       <main className="main">
+        <Navbar/>
         <Home/>
-      </main>
-      
+        <About/>
+      </main>    
     </>
   );
 }
