@@ -9,7 +9,7 @@ const Info = () => {
             <div className="about__box">
             <img src={Experience} alt="Experience-img" className="Experience-img about-img"/>
                 <h3 className="about__title">Experience</h3>
-                <span className="about__subtitle">3 Years Working</span>
+                <span className="about__subtitle">1 Year Working</span>
             </div>
             <div className="about__box">
             <img src={Completed} alt="Completed-img" className="Completed-img about-img" />
