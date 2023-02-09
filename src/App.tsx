@@ -4,7 +4,7 @@ import React from 'react';
 import Navbar from './assets/components/navbar/Navbar';
 import Home from './assets/components/presentation/Home';
 import About from './assets/components/about/about';
-
+import Skills from './assets/components/skills/skills';
 
 
 const App: React.FC = () => {
@@ -14,6 +14,7 @@ const App: React.FC = () => {
         <Navbar/>
         <Home/>
         <About/>
+        <Skills/>
       </main>    
     </>
   );
