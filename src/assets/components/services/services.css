@@ -3,3 +3,112 @@
     justify-content: center;
     column-gap: 1.8rem;
 }
+
+.services__content{
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(125, 172, 175, 0.8);
+    padding: 6rem 0 2rem 2.5rem;
+    border-radius: 20px;
+}
+
+.services__icon{
+    display: block;
+    font-size: 2rem;
+    color: rgb(255, 153, 0);
+    transition: 0.3s;  
+}
+.services__button-icon{
+    display: block;
+    font-size: 2rem;
+    color: rgb(255, 153, 0);
+    transition: 0.3s;
+}
+
+.services__button-icon:hover .services__button-icon{
+    transform: translateX(00.25rem);
+}
+
+.services__modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1 rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.services__modal-content{
+    width: 500px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 4.54rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.services__title{
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.services__modal-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: red;
+    cursor: pointer;
+}
+
+.services__modal-title,
+.services__modal-description{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+
+.services__modal-title{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.services__modal-description{
+    font-size: 0.813rem;
+    padding: 0 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.services__modal-services{
+    row-gap: 0.75rem;
+}
+
+.services__modal-service{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: #333;
+}
+
+.services__modal-icon{
+    color: rgb(255, 170, 0);
+    font-size: 1.1rem;
+}
+
+.services__modal-info{
+    font-size: 0.813rem;
+}
+
+/*Active modal*/
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}

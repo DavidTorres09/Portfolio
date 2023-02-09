@@ -32,7 +32,7 @@ const Backend = () => {
                         <div className="skills__data">
                             <img src={Badge} alt="badge-img" className="badge__img" />
                             <div>
-                                <h3 className="skills__name">SQL</h3>
+                                <h3 className="skills__name">MySQL</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
