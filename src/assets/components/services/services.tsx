@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './services.css';
 
 const Services = () => {
-    const[toggleState, setToggleState] = useState(0);
+    const[toggleState, setToggleState] = useState(1);
     const toggleTab = (index: any) =>{
         setToggleState(index);
     }
