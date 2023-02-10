@@ -8,6 +8,7 @@ import Skills from './assets/components/skills/skills';
 import Services from './assets/components/services/services';
 import Qualification from './assets/components/qualification/Qualification';
 import Contact from './assets/components/contact/contact';
+import Footer from './assets/components/footer/Footer';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Services/>
         <Qualification/>
         <Contact/>
+        <Footer/>
       </main>    
     </>
   );
