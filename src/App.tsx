@@ -9,7 +9,7 @@ import Services from './assets/components/services/services';
 import Qualification from './assets/components/qualification/Qualification';
 import Contact from './assets/components/contact/contact';
 import Footer from './assets/components/footer/Footer';
-import Portfolio from './assets/components/portfolio/potfolio';
+import Work from './assets/components/work/work';
 
 const App: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const App: React.FC = () => {
         <About/>
         <Skills/>
         <Services/>
-        <Portfolio/>
+         <Work/> 
         <Qualification/>
         <Contact/>
         <Footer/>
