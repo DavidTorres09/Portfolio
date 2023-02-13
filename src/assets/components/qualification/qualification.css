@@ -29,9 +29,9 @@
     color: rgb(231, 159, 4);
 }
 
-.qualification__Sections {
+.qualification__sections {
     display: grid;
-    grid-template-columns: 0.1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
 }
 
@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width:576px) {
-    .qualification__Sections {
+    .qualification__sections {
         grid-template-columns: initial;
     }
 
