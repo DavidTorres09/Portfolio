@@ -14,7 +14,7 @@ const About = () => {
                 <img src={AboutImg} alt="about--img" className="about__img" />
                 <div className="about__data">
                     <Info/>
-                    <p className="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam temporibus aut eos non assumenda consectetur dignissimos est obcaecati facere ducimus! Iure perspiciatis eius accusantium saepe mollitia hic nesciunt magni amet. Quaerat eaque odit, eligendi inventore illo dolor facere veniam illum error sequi aperiam at, velit voluptate eius repellat sapiente incidunt iure vel accusantium quo iusto? Quasi velit, corrupti sed, modi porro temporibus, nesciunt voluptatem recusandae at est illo neque dolorum aliquam. Sapiente doloribus sit accusantium adipisci, ratione, placeat, maiores vel molestias obcaecati inventore dolorem necessitatibus hic ab neque iusto veniam labore tenetur quae eius praesentium est deserunt. Pariatur, deleniti culpa.
+                    <p className="about__description">Building the future, one line of code at a time...I am a software developer, specialized in building applications and computer systems. I have skills in various programming languages ​​and development tools, and I am able to work in teams and collaborate with other departments to ensure the delivery of high-quality projects. My goal is to produce efficient and scalable solutions that meet the needs of users and solve real problems.
                     </p>
                     <a download=""href={CV} className="button button--flex">Download CV</a>
                 </div>
