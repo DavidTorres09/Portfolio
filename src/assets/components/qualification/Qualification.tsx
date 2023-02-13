@@ -57,16 +57,16 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Web design</h3>
                                 <span className="qualification__subtitle">Costa Rica - Autodidact</span>
                                 <div className="qualification__calender">
-                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2021- Present
+                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2023- Present
                                 </div>
                             </div>
                         </div>
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Web Development</h3>
-                                <span className="qualification__subtitle">Costa Rica - Fidelitas</span>
+                                <span className="qualification__subtitle">Internet - FreeCode</span>
                                 <div className="qualification__calender">
-                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2021- Present
+                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2023- Present
                                 </div>
                             </div>
                             <div>
@@ -81,10 +81,10 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">UX / UI</h3>
-                                <span className="qualification__subtitle">Costa Rica - Autodidact</span>
+                                <h3 className="qualification__title">Web development</h3>
+                                <span className="qualification__subtitle">Internet - Udemy</span>
                                 <div className="qualification__calender">
-                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2021- Present
+                                    <img src={Calendar} alt="Experience_icon" className="calendar-img" />2023- Present
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">UX Designer</h3>
+                                <h3 className="qualification__title">Web Pages designer</h3>
                                 <span className="qualification__subtitle">Costa Rica - Autodidact</span>
                                 <div className="qualification__calender">
                                     <img src={Calendar} alt="Experience_icon" className="calendar-img" />2021- Present

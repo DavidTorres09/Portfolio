@@ -68,7 +68,7 @@ const Contact = () => {
                         </div>
                         <div className="contact__form-div contact__form-area">
                             <label className="contact_form-tag">Project</label>
-                            <textarea name="project" className='contact__form-input' placeholder='Write your Projec'></textarea>
+                            <textarea name="project" className='contact__form-input' placeholder='Write your Project'></textarea>
                         </div>
                         <button className="button button--flex">Send Message</button>
                     </form>

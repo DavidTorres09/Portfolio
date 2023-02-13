@@ -20,7 +20,7 @@ const Works = () => {
             <h5 className="work__title">Day 1</h5>
             <p className="card-text">Expanding cards</p>
             <p className="card-text">Web Page</p>
-            <a href="https://day-1-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-1-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
       </div> 
 
@@ -30,7 +30,7 @@ const Works = () => {
             <h5 className="work__title">Day 2</h5>
             <p className="card-text">Progress Steps</p>
             <p className="card-text">Web Pag</p>
-            <a href="https://day-2-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-2-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
       </div> 
 
@@ -40,7 +40,7 @@ const Works = () => {
             <h5 className="work__title">Day 3</h5>
             <p className="card-text">Rotating Navigation</p>
             <p className="card-text">Web Pag</p>
-            <a href="https://day-3-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-3-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
       </div> 
 
@@ -50,7 +50,7 @@ const Works = () => {
             <h5 className="work__title">Day 4</h5>
             <p className="card-text">Hidden Search Widget</p>
             <p className="card-text">Web Pag</p>
-            <a href="https://day-4-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-4-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
       </div> 
 
@@ -60,7 +60,7 @@ const Works = () => {
             <h5 className="work__title">Day 5</h5>
             <p className="card-text">Blurry Loading</p>
             <p className="card-text">Web Pag</p>
-            <a href="https://day-5-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-5-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
 
           
@@ -72,7 +72,7 @@ const Works = () => {
             <h5 className="work__title">Day 6</h5>
             <p className="card-text">Scroll Animation</p>
             <p className="card-text">Categoría</p>
-            <a href="https://day-6-angel.vercel.app/" className="work_title_link">View</a>
+            <a href="https://day-6-angel.vercel.app/" className="work_title_link" target={'_blank'} >View</a>
           </div>
       </div> 
 

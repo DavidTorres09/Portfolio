@@ -7,11 +7,10 @@
 .services__content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px 0 rgba(125, 172, 175, 0.8);
+    background-color: #1E90FF;
+    box-shadow: 0 6px 8px rgba(0, 0, 156, 0.616);
     padding: 6rem 0 2rem 2.5rem;
     border-radius: 20px;
-
 }
 
 .services__icon {
@@ -65,6 +64,7 @@
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .services__modal-close {
@@ -79,7 +79,7 @@
 .services__modal-title,
 .services__modal-description {
     text-align: center;
-    color: rgb(110, 110, 110);
+    color: rgb(0, 0, 0);
 }
 
 .services__modal-title {
@@ -115,6 +115,10 @@
     opacity: 1;
     visibility: visible;
     cursor: pointer;
+}
+
+span.services__button{
+    color: white;
 }
 
 
